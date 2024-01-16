@@ -1,0 +1,94 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "BlazorServer.CarService.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/BlazorServer.CarService.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BlazorServer.CarService.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BlazorServer.CarService.Shared/1.0.0": {
+      "type": "project",
+      "path": "../BlazorServer.CarService.Shared/BlazorServer.CarService.Shared.csproj",
+      "msbuildProject": "../BlazorServer.CarService.Shared/BlazorServer.CarService.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "BlazorServer.CarService.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\laptopclub3007119711\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\laptopclub3007119711\\source\\repos\\BlazorServer.CarService\\BlazorServer.CarService\\BlazorServer.CarService.csproj",
+      "projectName": "BlazorServer.CarService",
+      "projectPath": "C:\\Users\\laptopclub3007119711\\source\\repos\\BlazorServer.CarService\\BlazorServer.CarService\\BlazorServer.CarService.csproj",
+      "packagesPath": "C:\\Users\\laptopclub3007119711\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\laptopclub3007119711\\source\\repos\\BlazorServer.CarService\\BlazorServer.CarService\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\laptopclub3007119711\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\laptopclub3007119711\\source\\repos\\BlazorServer.CarService\\BlazorServer.CarService.Shared\\BlazorServer.CarService.Shared.csproj": {
+              "projectPath": "C:\\Users\\laptopclub3007119711\\source\\repos\\BlazorServer.CarService\\BlazorServer.CarService.Shared\\BlazorServer.CarService.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
